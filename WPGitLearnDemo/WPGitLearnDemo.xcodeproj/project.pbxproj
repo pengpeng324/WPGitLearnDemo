@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550B1F63205251FB00193E33 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B1F62205251FB00193E33 /* TestViewController.m */; };
 		553803A5204FB2F000C95495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 553803A4204FB2F000C95495 /* AppDelegate.m */; };
 		553803A8204FB2F000C95495 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553803A7204FB2F000C95495 /* ViewController.m */; };
 		553803AB204FB2F000C95495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553803A9204FB2F000C95495 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550B1F61205251FB00193E33 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		550B1F62205251FB00193E33 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		553803A0204FB2F000C95495 /* WPGitLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPGitLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553803A3204FB2F000C95495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		553803A4204FB2F000C95495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				553803AE204FB2F000C95495 /* LaunchScreen.storyboard */,
 				553803B1204FB2F000C95495 /* Info.plist */,
 				553803B2204FB2F000C95495 /* main.m */,
+				550B1F61205251FB00193E33 /* TestViewController.h */,
+				550B1F62205251FB00193E33 /* TestViewController.m */,
 			);
 			path = WPGitLearnDemo;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				553803A8204FB2F000C95495 /* ViewController.m in Sources */,
 				553803B3204FB2F000C95495 /* main.m in Sources */,
+				550B1F63205251FB00193E33 /* TestViewController.m in Sources */,
 				553803A5204FB2F000C95495 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
